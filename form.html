@@ -78,6 +78,23 @@
 
     <fieldset>
         <legend><h3>ข้อมูลเพิ่มเติม</h3></legend>
+
+        <label for="book_type">ประเภทของหนังสือที่สนใจ:</label>
+        <select id="book_type" name="book_type">
+            <option value="novel">นิยายและวรรณกรรม</option>
+            <option value="science">วิทยาการและเทคโนโลยี</option>
+            <option value="history">ประวัติศาสตร์และวัฒนธรรม</option>
+            <option value="business">ธุรกิจและการเงิน</option>
+            <option value="health">สุขภาพและการดูแลรักษา</option>
+            <option value="religion">ศาสนาและปรัชญา</option>
+            <option value="others">อื่น ๆ</option>
+        </select><br><br>
+
+        <label>ต้องการรับข่าวสารทางอีเมลหรือไม่:</label>
+        <input type="radio" id="newsletter_yes" name="newsletter" value="yes" required>
+        <label for="newsletter_yes">ใช่</label>
+        <input type="radio" id="newsletter_no" name="newsletter" value="no">
+        <label for="newsletter_no">ไม่ใช่</label><br><br>
     </fieldset>    
 
 </body>
